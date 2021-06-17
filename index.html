@@ -46,12 +46,9 @@
       
         <!--=====================CAROUSEL / SLIDES=======================-->
         <div id="first_carousel" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#first_carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#first_carousel" data-slide-to="1"></li>
-            <li data-target="#first_carousel" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
+          
+          <div class="carousel-inner" id="carousel_item_list">
+            <!--
             <div class="carousel-item active">
               <img class="d-block w-100" src="./img/Figure_1.png" alt="First slide">
             </div>
@@ -61,6 +58,16 @@
             <div class="carousel-item">
               <img class="d-block w-100" src="./img/Figure_4a.png" alt="Third slide">
             </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Figure_1.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Figure_1a.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/Figure_4a.png" alt="Third slide">
+            </div>
+            -->
           </div>
           <a class="carousel-control-prev" role="button" data-slide="prev" onclick="$('#first_carousel').carousel('prev')">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -79,6 +86,7 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="./js/jquery_3.6.0.js"></script>
     <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/get_projects_data.js"></script>
 <!--
     <script>
       $(document).ready(function () {
