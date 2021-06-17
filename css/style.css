@@ -4,33 +4,30 @@
 @import url(./partials/_global.css);
 
 .header_area .main_menu .navbar .navbar-brand{
-    padding: 0 2rem 0 5rem;
+    padding: 0 2rem 0 2rem;
 }
 
 .header_area .main_menu .navbar{
-    padding: 1rem 20rem;
+    padding: 1rem 10rem;
+    background: var(--light-blue);
 }
 
 .header_area .main_menu .nav-item .nav-link{
-    font-family: var(--my-font);
     text-transform: uppercase;
     font-weight: 500;
     padding: 1.7rem;
-    color:var(--primary-color);
+    color:var(--dark-blue);
+    font-weight: bold;
 }
 
 .header_area .main_menu .navbar-nav .active a{
-    background: var(--primary-light);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color:var(--light-blue);
+    background-color:var(--dark-blue);
+    border-radius: 50px;
 }
 
 .header_area .main_menu .navbar-nav a:hover{
-    background: var(--accent);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color:var(--peach-juicy);
 }
 
 .carousel-item >img{
@@ -40,11 +37,10 @@
   }
 
 .carousel-control-prev{
-    background: var(--accent);
+    color: var(--dark-blue);
 }
 
 .carousel-control-next{
-    background: var(--accent);
+    color: var(--dark-blue);
 }
 
-  
