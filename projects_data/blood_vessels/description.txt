@@ -1,0 +1,16 @@
+Computer modeling of blood vessel tree growth
+
+The purpose of the project was to generate blood vessel trees in the given volume.
+
+The only method to obtain blood vessel tree of high precision is to generate them artificially, because existing angiographic techniques still have limitations and cannot reach all details. There exist many approaches to the problem, which mainly use iterative algorithms, what results in long execution time of those algorithms. In the project an approach to make execution time shorter was developed as well as ideas for solving segments intersections problem.
+
+The algorithm was implemented in Python with use of SciPy and NumPy libraries. Optimization methods were compared in terms of execution time. Ideas concerning detection of intersections and its removal were analyzed. Impact of those solutions and algorithm paremeters on the tree properties was analysed.
+
+The best optimization method for the problem was sequential least-squares quadratic programming. Intersections detecting elongated significantly the time of algorithm execution. Post processing worsen the results, as the number of
+terminal nodes was not predictable (even half of the tree could be removed during the post-processing).
+
+The data gathered during experiment allowed to make a reliable comparison of results. The optimized algorithm can be faster, however intersection analysis slows it down, depending on how it is applied. The best approach to detect segment-segment intersection is to do this during execution time, not as post processing. Preliminaryb judgement if segments are close and if intersection checking is justified, makes the algorithm much more effective.
+
+Implemented functions allowed to generate blood vessel trees inside certain volume stored as binary 3D image. The greater resolution and complexity of the volume the slower the execution is. It is also worth to remark that some regions may not be filled with vessels.
+
+Many features were implemented to improve blood vessel tree generation. The generated blood vessels thanks to algorithm modifications can be used in modelling of flow, because possible errors concerning intersections are avoided. 
