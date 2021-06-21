@@ -53,3 +53,28 @@
     color: var(--dark-blue);
 }
 
+.about-area{
+    background-color:var(--dark-blue);
+    color: white;
+}
+
+.para {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+.about-image{
+    font-size: 15rem; 
+    color: white;
+    text-align:center;
+    height: 100%;
+    position: relative
+}
+
+.about-image i {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    transform: translate(-50%, -50%)
+}

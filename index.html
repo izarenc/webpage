@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <!--css-->
+    <!-- css -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <!-- icon  fonts -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
 </head>
 <body >
@@ -45,7 +47,7 @@
     </header>
     <!--=====================MAIN AREA=======================-->
 
-    <main class="site-main">
+    <section class="site-main">
       
         <!--=====================CAROUSEL / SLIDES=======================-->
         <div id="first_carousel" class="carousel slide" data-ride="carousel">
@@ -82,17 +84,51 @@
           </a>
         </div>
 
-    </main>
+    </section>
     
     <!--===================== ABOUT =======================-->
-    <div id="about">
-      <H1>About me</H1>
+  
+      
+
     </div>
 
+    <section class="about-area" id="about">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-lg-6 col-md-12">
+                  <div class="about-image">
+                    <i class="bi bi-person-circle"></i>
+                  </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                  <h2 class="text-uppercase pt-5">
+                    About me
+                  </h2>
+                  <div class="paragraph py-4 w-75">
+                      <p class="para">
+                        I graduated Computer Science and Biomedical Engineering. I like programming in all its various applications. I enjoy basic electronics, like to implement projects on Aruino or Teensy.
+                        Small robots and vehicles are one of my biggest hobbies. Thankfully usually vision processing is a key to many projects, as that is my another passion.
+                        I often use processing of 2D and 3D images requiring simple algorithms (based on openCV) or convolutional neural networks.  
+                        
+                      </p>
+                      <p class="para">
+                        Currently I am involved in teachning programming which surprisingly for me is what I enjoy in work and gives a lot of profound insight and satisfaction.
+                        Teaching through both profound automated verification of students' answers and individual guiding through course allows to expect high quality programmers.
+                     
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
     <!--===================== PROJECTS =======================-->
-    <div id="projects">
-      <H1>Projects</H1>
-    </div>
+    <section id="projects">
+        <div class="container pt-5">
+            <h1 class="text-uppercase">Projects</h1>
+        </div>
+
+    </section>
 
     <!--===================== CONTACT =======================-->
     <div id="contact">
