@@ -3,27 +3,32 @@
 @import url(./partials/_variables.css);
 @import url(./partials/_global.css);
 
+.header_area .container .separating_line{
+    padding: 15px 0 0 0;
+    background: var(--dark-blue);
+}
+
 .header_area .main_menu .navbar .navbar-brand{
     padding: 0 2rem 0 2rem;
 }
 
 .header_area .main_menu .navbar{
     padding: 1rem 10rem;
-    background: var(--light-blue);
+    background: white;
 }
 
 .header_area .main_menu .nav-item .nav-link{
     text-transform: uppercase;
     font-weight: 500;
-    padding: 1.7rem;
+    padding: 0.25rem 1.7rem 0.25rem 1.7rem;
     color:var(--dark-blue);
     font-weight: bold;
 }
 
 .header_area .main_menu .navbar-nav .active a{
-    color:var(--light-blue);
+    color:white;
     background-color:var(--dark-blue);
-    border-radius: 50px;
+    border-radius: 10px;
 }
 
 .header_area .main_menu .navbar-nav a:hover{
@@ -31,9 +36,13 @@
 }
 
 .carousel-item >img{
-    min-height : 300px;
-    max-height : 300px;
-    width : 100%;
+    min-height : 400px;
+    max-height : 400px;
+    width : auto;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 .carousel-control-prev{
