@@ -1,0 +1,5 @@
+Classification of sleep phases
+
+The purpose of the project was to recognize sleep phases. The analyzed data was consisted of hypnograms, which are recordings of electrical brain activity during sleeping. 
+A simple classifier was implemented in Python. The dataset was split into windows on which FFT was performed. Firstly, on training dataset a PCA was conducted in order to find the most meaningful frequencies of brain activity, then the kNN classifiers were trained. Both number of neighbours in kNN and number of features (from PCA) were found by hyperparameter analysis. 
+Final accuracy of the classifier was 87%.
