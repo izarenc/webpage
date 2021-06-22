@@ -1,7 +1,7 @@
 
-@import url(./fonts.css);
-@import url(./partials/_variables.css);
-@import url(./partials/_global.css);
+
+@import './partials/_variables.css';
+
 
 .header_area .container .separating_line{
     padding: 15px 0 0 0;
