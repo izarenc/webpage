@@ -89,10 +89,25 @@
     color: white;
 }
 
+#contact{
+    margin: 2rem 0 2rem 0;
+}
+
 #contact .text-uppercase{
-    margin: 2rem 0 0 0;
-    padding: 2rem 0 2rem 0;
+    padding: 2rem 0 1rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.contact-area .contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-area .contact-icons a .bi{
+    font-size: 3rem;
+    padding: 0rem 3rem 1rem;
+    color:white;
 }
