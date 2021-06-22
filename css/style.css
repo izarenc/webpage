@@ -78,3 +78,21 @@
     top: 40%;
     transform: translate(-50%, -50%)
 }
+
+.projects .container{
+    width: 100%;
+    text-align:center;
+}
+
+.contact-area{
+    background-color:var(--dark-blue);
+    color: white;
+}
+
+#contact .text-uppercase{
+    margin: 2rem 0 0 0;
+    padding: 2rem 0 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
